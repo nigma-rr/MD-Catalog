@@ -1,0 +1,21 @@
+@import "./utils/vars.scss";
+@import "./utils/reset.scss";
+
+body {
+  font-family: $defaultFont;
+  font-weight: $defaultFontWeight;
+  color: $defaultColor;
+  font-size: $defaultFontSize;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1408px;
+}
+
+button {
+  cursor: pointer;
+  font-family: $defaultFont;
+}
